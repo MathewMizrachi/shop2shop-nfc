@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID.com.shop2shop.pay",
+        "paths": ["/shop2shop-nfc/pay*"]
+      }
+    ]
+  }
+}
