@@ -8,7 +8,7 @@
         // Redirect to the Shop2Shop app via custom URL scheme
         (function() {
             var params = window.location.search;
-            var appUrl = "shop2shop://pay" + params;
+            var appUrl = "shop2shoppay://pay" + params;
 
             // Try to open the app
             window.location.href = appUrl;
@@ -87,7 +87,7 @@
         document.getElementById('retryBtn').addEventListener('click', function(e) {
             e.preventDefault();
             var params = window.location.search;
-            window.location.href = "shop2shop://pay" + params;
+            window.location.href = "shop2shoppay://pay" + params;
         });
     </script>
 </body>
